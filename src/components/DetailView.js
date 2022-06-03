@@ -170,8 +170,8 @@ class DetailView extends Component {
                             />                                                
                             </Card.Content>
                             <Card.Actions style={styles.editDeleteButtonsContainer}>
-                                <Button color={'grey'} onPress={this.onDeletePress.bind(this)}>Delete</Button>
-                                <Button color={'grey'} onPress={this.onEditPress.bind(this)}>Edit</Button>
+                                <Button color={'#262626'} onPress={this.onDeletePress.bind(this)}>Delete</Button>
+                                <Button color={'#262626'} onPress={this.onEditPress.bind(this)}>Edit</Button>
                             </Card.Actions>
                         </Card>
                     </View>
