@@ -106,7 +106,7 @@ class AddPerson extends Component {
                         style={styles.inputField}
                         label="Department"
                         value={this.state.company}
-                        onChangeText={value => this.formUpdate({ prop: 'company', value})}
+                        onChangeText={value => this.formUpdate({ prop: 'department', value})}
                     />                    
                     <TextInput
                         style={styles.inputField}
