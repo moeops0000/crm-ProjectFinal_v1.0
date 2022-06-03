@@ -7,7 +7,7 @@ const App = () => (
   <View style={styles.container}>
     <ImageBackground source={image} resizeMode="cover" style={styles.image}>
       
-      <Image source={require('../images/LogoNorm1.png')} />
+      <Image source={require('../images/LogoColour.png')} />
     </ImageBackground>
   </View>
 );
