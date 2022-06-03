@@ -46,7 +46,7 @@ const PeopleItem = (props) => {
                 <Card.Title
                     title={`${firstName} ${lastName}`}
                     subtitle={`${company}`}
-                    left={(props) => <Avatar.Text color={'white'} style={{backgroundColor: '#941a1d'}} size={24} {...props} label={getAvatarLabel(firstName, lastName)} />}
+                    left={(props) => <Avatar.Text color={'#ffffff'} style={{backgroundColor: '#941a1d'}} size={24} {...props} label={getAvatarLabel(firstName, lastName)} />}
                 />
             </View>
         </TouchableWithoutFeedback>
