@@ -22,7 +22,7 @@
      return (
        <Provider store={store}>
          <Appbar.Header style={{backgroundColor: '#c64c38'}}>
-           <Appbar.Content color={'#262626'} style={{backgroundColor: '#cb6d4f'}} title="CRM APP" subtitle={'Developed using React Native Developed by Matthew Funnell'} />
+           <Appbar.Content color={'#262626'} style={{backgroundColor: '#cb6d4f'}} title="CRM APP" subtitle={'Developed with React Native Developed by Matthew Funnell'} />
          </Appbar.Header>
          <Navigation />
        </Provider>
