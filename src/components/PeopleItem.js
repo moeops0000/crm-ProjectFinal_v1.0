@@ -1,3 +1,4 @@
+// Matthew Funnell - 375494205
 import React from 'react';
 import { Text, View, StyleSheet, Image, TouchableWithoutFeedback } from 'react-native';
 import { connect } from 'react-redux';

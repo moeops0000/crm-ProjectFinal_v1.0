@@ -1,3 +1,4 @@
+// Matthew Funnell - 375494205
 import React, { Component } from 'react';
 import { View, StyleSheet, ScrollView, Text, Image, TouchableOpacity } from 'react-native';
 import { Button, Card, List } from 'react-native-paper';
@@ -151,22 +152,22 @@ class DetailView extends Component {
                             style={styles.listItem}
                             title="Phone"
                             description={phone}
-                            left={props => <List.Icon {...props} icon="phone" />}
+                            left={props => <List.Icon {...props} icon="phone" color={'#262626'}/>}
                             />
                             <List.Item
                                 title="E-Mail"
                                 description={email}
-                                left={props => <List.Icon {...props} icon="email" color={'grey'}/>}
+                                left={props => <List.Icon {...props} icon="email" color={'#262626'}/>}
                             />
                             <List.Item
                                 title="Project"
                                 description={project}
-                                left={props => <List.Icon {...props} icon="clipboard-text" color={'grey'}/>}
+                                left={props => <List.Icon {...props} icon="clipboard-text" color={'#262626'}/>}
                             />                                                
                             <List.Item
                                 title="Notes"
                                 description={notes}
-                                left={props => <List.Icon {...props} icon="text" color={'grey'}/>}
+                                left={props => <List.Icon {...props} icon="text" color={'#262626'}/>}
                             />                                                
                             </Card.Content>
                             <Card.Actions style={styles.editDeleteButtonsContainer}>

@@ -1,3 +1,4 @@
+// Matthew Funnell - 375494205
 import React from "react";
 import { ImageBackground, StyleSheet, Text, Image, View } from "react-native";
 

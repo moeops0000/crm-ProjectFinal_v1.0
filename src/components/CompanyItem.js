@@ -1,3 +1,4 @@
+// Matthew Funnell - 375494205
 import React from 'react';
 import { Text, View, StyleSheet, Image } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
